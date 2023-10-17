@@ -167,15 +167,40 @@
 // }
 // alert(param()); 
 // task 16
-  var a = prompt("")
-function name (){
-a = a + a
-  
-    function name2(){
-a = a * a
-console.log(a)
-    }
-    name2()
-    
-}
-name()
+// var a = parseFloat(prompt("Enter the base"));
+// var b = parseFloat(prompt("Enter the exponent"));
+// var p = 1;
+
+// function name() {
+//     if (b === 0) {
+//         return 1; // Any number to the power of 0 is 1.
+//     } else {
+//         for (var i = 1; i <= b; i++) {
+//             p *= a;
+//         }
+//         return p;
+//     }
+// }
+
+// var result = name();
+
+// if (a === 0 && b === 0) {
+//     console.log(`${a} ^ ${b} = 1`);
+// } else {
+//     console.log(`${a} ^ ${b} = ${result}`);
+// }
+// task 17 
+// var input = prompt("Write dice").toUpperCase()
+// function name (){
+// if (input !== "dice".toUpperCase() || input === null ){
+//     alert("Write dice or dont press okay without writing 'dice' ")
+// }
+// else{
+//     var a =  Math.round(Math.random() * 6)
+//     console.log(a)
+// }
+// }
+// name()
+// task 18 
+var a = "1234"
+console.log(a.length)
