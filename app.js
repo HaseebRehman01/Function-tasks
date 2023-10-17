@@ -137,15 +137,28 @@
 // }
 // console.log(name(j,h))
 // task 13
-var arr = [5, 6, 8, 9, 1, 2, 35, 9];
+// var arr = [5, 6, 8, 9, 1, 2, 35, 9];
 
-function name() {
-    var sortedArr = arr.slice(); // Create a copy of the original array
-    sortedArr.sort(function(a, b) {
-        return a - b;
-    });
-    return sortedArr;
-}
+// function name() {
+//     var sortedArr = arr.slice(); // Create a copy of the original array
+//     sortedArr.sort(function(a, b) {
+//         return a - b;
+//     });
+//     return sortedArr;
+// }
 
-var b = name();
-console.log(b);
+// var b = name();
+// console.log(b);
+// task 14
+// var arr = [4,2,1,3,4,100]
+// var sum =0
+// function name  (){
+// for (var i = 0 ; i<arr.length;i++){
+// sum += arr[i]
+
+// }
+
+// }
+// name()
+// console.log(sum)
+// task 15
