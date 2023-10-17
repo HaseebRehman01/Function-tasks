@@ -162,3 +162,20 @@
 // name()
 // console.log(sum)
 // task 15
+// var param = function inner() { 
+//     return typeof inner; 
+// }
+// alert(param()); 
+// task 16
+  var a = prompt("")
+function name (){
+a = a + a
+  
+    function name2(){
+a = a * a
+console.log(a)
+    }
+    name2()
+    
+}
+name()
