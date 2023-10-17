@@ -202,5 +202,12 @@
 // }
 // name()
 // task 18 
-var a = "1234"
-console.log(a.length)
+
+// var a = prompt("Write numbers")
+// function name (a){
+//     // -1 bcz string ka index =0 sa shroo hota
+// for (var i = a.length-1 ; i>=0 ; i--){
+//     console.log(a[i])
+// }
+// }
+// name(a)
