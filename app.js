@@ -211,3 +211,85 @@
 // }
 // }
 // name(a)
+// task 19
+// var b = prompt("Enter a string");
+// function
+// var concat = "";
+
+// if (b !== null && b !== "") {
+//     for (var i = b.length - 1; i >= 0; i--) {
+//         concat += b[i];
+//     }
+
+//     if (b === concat) {
+//         alert("Palindrome");
+//     } else {
+//         alert("Not a palindrome");
+//     }
+// } else {
+//     alert("Please enter a valid string");
+// }
+// function Palindrome(str) {
+//     // Remove non-alphanumeric characters and convert to lowercase for a case-insensitive check.
+//     str = str.replace(/[^a-zA-Z0-9]/g, '').toLowerCase();
+
+//     const reversedStr = str.split('').reverse().join('');
+
+//     return str === reversedStr;
+// }
+
+// const inputString = prompt("Enter a string");
+
+// if (inputString) {
+//     if (Palindrome(inputString)) {
+//         alert(`${inputString} is a palindrome.`);
+//     } else {
+//         alert(`${inputString} is not a palindrome.`);
+//     }
+// } else {
+//     alert("You didn't enter a valid string.");
+// }
+//   task 20
+    
+
+// var input = prompt("Write string")
+// function name (){
+// var firstAlpha =input[0].toUpperCase()
+//     var otherwords = input.slice(1)
+//     // console.log(j)
+//     console.log(firstAlpha+otherwords)
+// }
+
+// name()
+
+// Define a function called capitalizeFirstLetterOfEachWord that takes a string (str) as an argument.
+function capitalizeFirstLetterOfEachWord(str) {
+    // Split the input string into an array of words using the space character as a delimiter and store it in the 'words' variable.
+    const words = str.split(' ');
+    console.log(words)
+
+    // Loop through each word in the 'words' array.
+    for (let i = 0; i < words.length; i++) {
+        // For each word, capitalize the first letter by using the .charAt(0) method to access the first character,
+        // convert it to uppercase with .toUpperCase(), and then append the rest of the word using .slice(1).
+        words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1);
+    }
+
+    // Join the modified 'words' array back into a single string with spaces between the words and return it.
+    return words.join(' ');
+}
+
+// Use the prompt function to get a string from the user, and store it in the 'inputString' variable.
+const inputString = prompt("Enter a string");
+
+// Check if the user didn't cancel the prompt (i.e., inputString is not null or empty).
+if (inputString) {
+    // Call the capitalizeFirstLetterOfEachWord function with the 'inputString' and store the result in 'capitalizedString'.
+    const capitalizedString = capitalizeFirstLetterOfEachWord(inputString);
+
+    // Display the 'capitalizedString' using an alert dialog.
+    alert(capitalizedString);
+} else {
+    // If the user canceled the prompt or provided an empty string, display an alert indicating that a valid string wasn't entered.
+    alert("You didn't enter a valid string.");
+}
