@@ -69,10 +69,71 @@
 // }
 // name ()
 // task 8
-var a = parseInt(prompt("Write starting number"))
-var b = parseInt(prompt("Write ending number"))
-function name (){
-    for (var i = a ; i <= b ;i++){
-        console.log(i)
-    }
-}
+// var a = parseInt(prompt("Write starting number"))
+// var b = parseInt(prompt("Write ending number"))
+// function name (){
+//     for (var i = a ; i <= b ;i++){
+//         console.log(i)
+//     }
+// }
+// name()
+
+// task 9
+// var a = parseInt(prompt("write base value"))
+// var b = parseInt(prompt("write perp value"))
+
+// function outer() {
+//     var  h = a + b
+//     function inner(){
+//      h*=h
+//     }
+//     inner()
+//     return h
+// }
+// var retrn = outer()
+// console.log(retrn)
+// task 10
+// function name(a, b, c) {
+//     var count = arguments.length;
+//     console.log(count);
+//   }
+  
+//   name(1, 2, 3);
+// function writeArgumentsToBrowser() {
+//     // Use the arguments object to access all the arguments
+//     for (var i = 0; i < arguments.length; i++) {
+//       document.write("Argument " + (i + 1) + ": " + arguments[i] + "<br>");
+//     }
+//   }
+  
+//   // Example usage
+//   writeArgumentsToBrowser("Hello", 42, true, [1, 2, 3]);
+// task 11
+// function name(){
+//     if (arguments.length === 0){
+//         return alert("dal ismai kch")
+//     }
+//     var big = arguments[0]
+// for (var i = 0 ; i<arguments.length;i++){
+    
+//     if (arguments[i] > big )
+
+//     big = arguments[i]
+   
+// }
+// return big
+// }
+// var l = name (-20,-5070,700,40,90,9000000)
+// console.log(l)
+
+// task 12
+//   var h = 2
+//     var j = 6
+
+// function name(a,b){
+  
+// var s = a*b
+// return s
+// }
+// console.log(name(j,h))
+// task 13
