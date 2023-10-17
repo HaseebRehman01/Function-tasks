@@ -63,12 +63,16 @@
 // var s = name(5)
 // console.log(s)
 // task 7
-var a = 1 
-function name (b){
-for (var i = b ; i >= 1 ; i-- ){
- a *=  i
+// var a = 1
+// function name (s){
+// for (var i = 1 ;)
+// }
+// name ()
+// task 8
+var a = parseInt(prompt("Write starting number"))
+var b = parseInt(prompt("Write ending number"))
+function name (){
+    for (var i = a ; i <= b ;i++){
+        console.log(i)
+    }
 }
-   return a
-}
-var j = name(4)
-console.log(j)
