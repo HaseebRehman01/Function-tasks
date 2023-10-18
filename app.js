@@ -262,34 +262,37 @@
 
 // name()
 
-// Define a function called capitalizeFirstLetterOfEachWord that takes a string (str) as an argument.
-function capitalizeFirstLetterOfEachWord(str) {
-    // Split the input string into an array of words using the space character as a delimiter and store it in the 'words' variable.
-    const words = str.split(' ');
-    console.log(words)
+// // Define a function called capitalizeFirstLetterOfEachWord that takes a string (str) as an argument.
+// function capitalizeFirstLetterOfEachWord(str) {
+//     // Split the input string into an array of words using the space character as a delimiter and store it in the 'words' variable.
+//     const words = str.split(' ');
+//     console.log(words)
 
-    // Loop through each word in the 'words' array.
-    for (let i = 0; i < words.length; i++) {
-        // For each word, capitalize the first letter by using the .charAt(0) method to access the first character,
-        // convert it to uppercase with .toUpperCase(), and then append the rest of the word using .slice(1).
-        words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1);
-    }
+//     // Loop through each word in the 'words' array.
+//     for (let i = 0; i < words.length; i++) {
+//         // For each word, capitalize the first letter by using the .charAt(0) method to access the first character,
+//         // convert it to uppercase with .toUpperCase(), and then append the rest of the word using .slice(1).
+//         words[i] = words[i].charAt(0).toUpperCase() + words[i].slice(1);
+//     }
 
-    // Join the modified 'words' array back into a single string with spaces between the words and return it.
-    return words.join(' ');
-}
+//     // Join the modified 'words' array back into a single string with spaces between the words and return it.
+//     return words.join(' ');
+// }
 
-// Use the prompt function to get a string from the user, and store it in the 'inputString' variable.
-const inputString = prompt("Enter a string");
+// // Use the prompt function to get a string from the user, and store it in the 'inputString' variable.
+// const inputString = prompt("Enter a string");
 
-// Check if the user didn't cancel the prompt (i.e., inputString is not null or empty).
-if (inputString) {
-    // Call the capitalizeFirstLetterOfEachWord function with the 'inputString' and store the result in 'capitalizedString'.
-    const capitalizedString = capitalizeFirstLetterOfEachWord(inputString);
+// // Check if the user didn't cancel the prompt (i.e., inputString is not null or empty).
+// if (inputString) {
+//     // Call the capitalizeFirstLetterOfEachWord function with the 'inputString' and store the result in 'capitalizedString'.
+//     const capitalizedString = capitalizeFirstLetterOfEachWord(inputString);
 
-    // Display the 'capitalizedString' using an alert dialog.
-    alert(capitalizedString);
-} else {
-    // If the user canceled the prompt or provided an empty string, display an alert indicating that a valid string wasn't entered.
-    alert("You didn't enter a valid string.");
-}
+//     // Display the 'capitalizedString' using an alert dialog.
+//     alert(capitalizedString);
+// } else {
+//     // If the user canceled the prompt or provided an empty string, display an alert indicating that a valid string wasn't entered.
+//     alert("You didn't enter a valid string.");
+// }
+
+
+
