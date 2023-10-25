@@ -294,5 +294,76 @@
 //     alert("You didn't enter a valid string.");
 // }
 
+// // task 21
+// 21.	Write a JavaScript function that accepts a string as a parameter and find the longest word within the string. 
+// EXAMPLE STRING : 'Web Development Tutorial' 
+// EXPECTED OUTPUT : 'Development'
 
+// var get = document.querySelector(".guess");
+
+// function findLongestWord(str) {
+//     var strToArray = str.split(' ');
+//     var longestWord = "";
+
+//     for (var i = 0; i < strToArray.length; i++) {
+//         var currentWord = strToArray[i];
+        
+//         if (currentWord.length > longestWord.length) {
+//             longestWord = currentWord;
+//         }
+//     }
+
+//     return longestWord;
+// }
+
+// var str = prompt("Write any paragraph you want, and I will find the longest word.");
+// var result = findLongestWord(str);
+// get.innerHTML = `Result: ${result}`;        
+
+// task 22
+
+// function name(str){
+    //     var a = 0
+    // var str = "allah is beautiful ok"
+    // var arr = ["a","e","i","o","u"]
+    // for (var i = 0 ;i<str.length;i++){
+
+
+
+    // for (var j = 0 ; j < arr.length ;j++ ){
+    //     if (str[i].includes(arr[j])){
+    //     a+=1
+    // }
+    // }
+    // }
+
+    // console.log(a)
+//     var a = 0;
+// var str = "allah is beautiful ok";
+// var arr = ["a", "e", "i", "o", "u"];
+
+// for (var i = 0; i < str.length; i++) {
+//     for (var j = 0; j < arr.length; j++) {
+//         if (str[i]===(arr[j])) {
+//             a += 1;
+//         }
+//     }
+// }
+
+// console.log(a);
+// }
+
+// var l = name(str)   
+//  console.log(l)
+
+
+// 
+// function name(str){
+// var j = typeof str 
+// return j
+// } 
+// var l = name("")
+// console.log(l)
+
+// 
 
